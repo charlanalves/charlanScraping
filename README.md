@@ -12,9 +12,10 @@ Entretanto rodar aplicação após a instalação basta executar o arquivo abaix
 ```
 
 # Libs utilizadas e Tecnologias
+```bash
 puphpeteer's - lib headless browser para muito utilizada para scraping
 Docker e docker composer 
-
+```
 # Conceito do projeto
 O teste desenvolvido tem como objetivo além de atender os requisitos propostos prover isolamento do codigo para sua reutilização e portabilidade para isso foi criado uma mini Engine De Scraping através dos arquivos CharlanScraping.php,PagesConfig.php e OutputConfig. 
 
