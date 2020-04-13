@@ -5,8 +5,7 @@
 3 - Execute o arquivo ./install.sh
 ```
 # Uso
-Quando voc realizar a instalação o script automaticamente tentará executar a primeira vez.
-Entretanto para rodar aplicação após a instalação basta executar o arquivo abaixo.
+Execute o arquivo abaixo: (mas ao fazer a instalacão o script install.sh já executa aplicação pela primeira vez)
 ```bash
 ./run.sh
 ```
@@ -17,22 +16,24 @@ puphpeteer's - lib headless browser muito utilizada para scraping com php - http
 Docker e docker composer 
 ```
 # Conceito do projeto
-O teste desenvolvido tem como objetivo além de atender os requisitos propostos prover isolamento do codigo para sua reutilização e portabilidade para isso foi criado uma mini Engine De Scraping através dos arquivos CharlanScraping.php,PagesConfig.php e OutputConfig. 
+O teste desenvolvido tem como objetivo, além de atender os requisitos propostos, prover isolamento do codigo para sua reutilização e portabilidade para isso foi criado uma mini Engine De Scraping através dos arquivos CharlanScraping.php,PagesConfig.php e OutputConfig. 
 
-Basicamente o conceito geral consiste em realizar configuraçoes nos arquivos PagesConfig.php e OutputConfig
-e "automaticamente" a mini engine faria a leitura destas executando as açoes e comandos definidos.
+Basicamente o conceito geral consiste em realizar configurações nos arquivos PagesConfig.php e OutputConfig
+e "automaticamente" a mini engine faria a leitura destas executando as extrações de dados e comandos definidos.
 
 # Justificativa 
-Eu poderia ter feito um script single page com linguagem estruturada porém optei por criar essa mini engine global com orientação objeto aplicando conceitos de herança, polimorfismo e SOLID etc, com o intuito de demonstrar meus conhecimentos de forma prática com O.O e desenvolvimento de componentes globais, objeto esse que  parte ativa da minha carreira uma vez que ja tive a oportunidade de desenvolver um Micro-Framework.
+Eu poderia ter feito um script single page com linguagem estruturada porém optei por criar essa mini engine global com orientação objeto aplicando conceitos de herança, polimorfismo e SOLID etc, com o intuito de demonstrar meus conhecimentos de forma prática também no desenvolvimento de componentes globais, objeto esse que é parte ativa da minha carreira uma vez que ja tive a oportunidade de desenvolver um Micro-Framework.
 
-Entretanto, destaco que entendo perfeitamente que existem momentos que um script simplificado e até mesmo com estruturado atende perfeitamente.
+Entretanto, destaco que entendo perfeitamente que existem momentos que um script simplificado e até mesmo com linguagem estruturada atende perfeitamente algumas situações.
 
 
 # Limitações
-Como se tratava apenas de um teste o foco do objeto desenvolvido não visa ser o mais performático apesar de eu deter o conhecimento para tal. Nessa oportunidade preferi focar do design e funcionalidade, mas nada me impediria por exemplo de desenvolver com recursos multithreads ou mesmo com complexidade ciclomática baixíssima.
+Como se tratava apenas de um teste o foco do objeto desenvolvido não visa ser o mais performático, apesar de eu deter o conhecimento para tal. Nessa oportunidade preferi focar no design e funcionalidade, mas nada me impediria por exemplo de desenvolver com recursos multithreads ou mesmo com complexidade ciclomática baixíssima.
 
-Api - Pensei em desenvolver uma api para aumentar ainda mais a reutilização entre sistemas mas acabei tendo outros compromissos no fim de semana e acabou no entrandando nessa versão :) nessa 1.0 acabei entregando para uso via cli/cron como fosse uma espécie de rotina.
+Api - Pensei em desenvolver uma api para aumentar ainda mais a reutilização entre sistemas mas acabei tendo outros compromissos no fim de semana e acabou não entrandando nessa versão :) ,nessa 1.0 acabei entregando para uso via cli/cron como fosse uma espécie de rotina.
 
+
+## Mini Documentação (você a encontra abaixo e também dentro do codigo acima de cada método)
 
 ## Arquivos de configuração PageConfig.php
 ```bash
