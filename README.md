@@ -1,8 +1,9 @@
 # Instalação
+```bash
 1 - git clone https://github.com/charlanalves/charlanScraping.git
 2 - Dê permissão para a pasta clonada 
 3 - Execute o arquivo ./install.sh
-
+```
 # Uso
 Quando voc realizar a instalação o script automaticamente tentará executar a primeira vez.
 Entretanto rodar aplicação após a instalação basta executar o arquivo abaixo.
@@ -10,7 +11,7 @@ Entretanto rodar aplicação após a instalação basta executar o arquivo abaix
 ./run.sh
 ```
 
-# libs utilizadas e Tecnologias
+# Libs utilizadas e Tecnologias
 puphpeteer's - lib headless browser para muito utilizada para scraping
 Docker e docker composer 
 
