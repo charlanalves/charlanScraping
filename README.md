@@ -13,7 +13,7 @@ Entretanto para rodar aplicação após a instalação basta executar o arquivo 
 
 # Libs utilizadas e Tecnologias
 ```bash
-puphpeteer's - lib headless browser para muito utilizada para scraping
+puphpeteer's - lib headless browser muito utilizada para scraping com php - https://github.com/nesk/puphpeteer
 Docker e docker composer 
 ```
 # Conceito do projeto
