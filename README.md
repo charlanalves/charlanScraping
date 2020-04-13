@@ -6,7 +6,7 @@
 ```
 # Uso
 Quando voc realizar a instalação o script automaticamente tentará executar a primeira vez.
-Entretanto rodar aplicação após a instalação basta executar o arquivo abaixo.
+Entretanto para rodar aplicação após a instalação basta executar o arquivo abaixo.
 ```bash
 ./run.sh
 ```
