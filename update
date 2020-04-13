@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# An example hook script to prepare a packed repository for use over
+# dumb transports.
+#
+# To enable this hook, rename this file to "post-update".
+
+
+curentBranch=$(git rev-parse --symbolic --abbrev-ref $1)
+if [ curentBranch != "master" ]; then 
+echo "Só é permitido criar branchs a partir da brach master."
+exit; fi
+if [ cuurentBranch == "master" ]; then 
+  echo "Criada com sucesso"
+fi
+

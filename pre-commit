@@ -1,0 +1,6 @@
+git reflog | awk 'NR==1{
+if [ $6 != "master" ]; then
+  "echo O commit não foi realizado porque essa branch não foi criada a partir da master."
+exit;
+fi
+
