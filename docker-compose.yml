@@ -1,9 +1,9 @@
 version: '3.0'
 
 services:
-  helloworld:
-    container_name: helloworld
+  eipriceteste:
+    container_name: eipriceteste
     build:
-      context: ./hello-world/
+      context: ./dockerfile/
     volumes:
       - ./:/app/
