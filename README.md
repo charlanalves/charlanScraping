@@ -30,7 +30,6 @@ Entretanto, destaco que entendo perfeitamente que existem momentos que um script
 # Limitações
 Como se tratava apenas de um teste o foco do objeto desenvolvido não visa ser o mais performático, apesar de eu deter o conhecimento para tal. Nessa oportunidade preferi focar no design e funcionalidade, mas nada me impediria por exemplo de desenvolver com recursos multithreads ou mesmo com complexidade ciclomática baixíssima.
 
-Api - Pensei em desenvolver uma api para aumentar ainda mais a reutilização entre sistemas mas acabei tendo outros compromissos no fim de semana e acabou não entrandando nessa versão :) ,nessa 1.0 acabei entregando para uso via cli/cron como fosse uma espécie de rotina.
 
 
 ## Mini Documentação (você a encontra abaixo e também dentro do codigo acima de cada método)
