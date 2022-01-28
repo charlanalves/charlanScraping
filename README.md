@@ -16,7 +16,7 @@ puphpeteer's - lib headless browser muito utilizada para scraping com php - http
 Docker e docker composer 
 ```
 # Conceito do projeto
-O teste desenvolvido tem como objetivo, além de atender os requisitos propostos, prover isolamento do codigo para sua reutilização e portabilidade para isso foi criado uma mini Engine De Scraping através dos arquivos CharlanScraping.php,PagesConfig.php e OutputConfig. 
+projeto tem como objetivo prover isolamento do codigo para sua reutilização e portabilidade para isso foi criado uma mini Engine De Scraping através dos arquivos CharlanScraping.php,PagesConfig.php e OutputConfig. 
 
 Basicamente o conceito geral consiste em realizar configurações nos arquivos PagesConfig.php e OutputConfig
 e "automaticamente" a mini engine faria a leitura destas executando as extrações de dados e comandos definidos.
